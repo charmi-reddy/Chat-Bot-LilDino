@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lil Dino</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        :root {
+            --bg-color: #fefefe;
+            --text-color: #222;
+            --user-msg-bg: #d1e7ff;
+            --bot-msg-bg: #ffffff;
+        }
+
+        body.dark {
+            --bg-color: #121212;
+            --text-color: #f0f0f0;
+            --user-msg-bg: #2a73d9;
+            --bot-msg-bg: #1e1e1e;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to bottom right, #e1f4e5, #d6f5f2);
+            color: var(--text-color);
+            transition: 0.3s;
+            padding: 30px;
+        }
+
+        body.dark {
+            background: linear-gradient(to bottom right, #1a1a1a, #2e2e2e);
+        }
+
+        .chat-box {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            background-color: var(--bot-msg-bg);
+        }
+
+        #chat-log {
+            max-height: 400px;
+            overflow-y: auto;
+            margin-bottom: 15px;
+        }
+
+        .user, .bot {
+            margin: 8px 0;
+            padding: 10px 14px;
+            border-radius: 10px;
+            max-width: 80%;
+            word-wrap: break-word;
+        }
+
+        .user {
+            background-color: var(--user-msg-bg);
+            align-self: flex-end;
+            text-align: right;
+        }
+
+        .bot {
+            background-color: var(--bot-msg-bg);
+            border-left: 4px solid #00a86b;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .controls button {
+            padding: 6px 12px;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 6px;
+            border: none;
+            background-color: #888;
+            color: white;
+            transition: background 0.2s;
+        }
+
+        .controls button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-box">
+        <div class="controls">
+            <button id="theme-toggle">🌙 Dark Mode</button>
+            <button id="voice-toggle">🔈 Voice: On</button>
+        </div>
+        <h2>Lil Dino</h2>
+        <div id="chat-log"></div>
+        <input type="text" id="user-input" placeholder="Say something..." autofocus>
+    </div>
+
+    <script>
+        const input = document.getElementById("user-input");
+        const log = document.getElementById("chat-log");
+        const themeToggle = document.getElementById("theme-toggle");
+        const voiceToggle = document.getElementById("voice-toggle");
+
+        let voicesLoaded = false;
+        let selectedVoice = null;
+        let voiceOn = true;
+
+        function loadVoices() {
+            const voices = window.speechSynthesis.getVoices();
+            selectedVoice = voices.find(v => v.name.includes("Google") && v.name.toLowerCase().includes("female"))
+                            || voices.find(v => v.name.includes("Zira"))
+                            || voices[0];
+            voicesLoaded = true;
+        }
+
+        window.speechSynthesis.onvoiceschanged = loadVoices;
+
+        function speak(text) {
+            if (!voiceOn) return;
+            if (!voicesLoaded) loadVoices();
+
+            let cleanText = text
+    .replace(/[\p{Emoji_Presentation}\p{Extended_Pictographic}]/gu, '')
+    .replace(/\bDino\b/g, "Dai-no");
+
+
+            const substitutions = {
+                "umm": "uhmm",
+                "ummm": "uhhh",
+                "hmm": "hmmmmm",
+                "okayy": "okay",
+                "lil": "little",
+                "idk": "I don't know",
+                "uh": "uhh",
+                "huh": "huhh"
+            };
+
+            for (let key in substitutions) {
+                const regex = new RegExp(`\\b${key}\\b`, 'gi');
+                cleanText = cleanText.replace(regex, substitutions[key]);
+            }
+
+            const utterance = new SpeechSynthesisUtterance(cleanText);
+            utterance.voice = selectedVoice;
+            utterance.pitch = 1.1;
+            utterance.rate = 0.94;
+            utterance.volume = 0.88;
+
+            window.speechSynthesis.cancel();
+            window.speechSynthesis.speak(utterance);
+        }
+
+        input.addEventListener("keypress", function(e) {
+            if (e.key === "Enter") {
+                const msg = input.value;
+                if (!msg.trim()) return;
+
+                log.innerHTML += `<div class='user'>You: ${msg}</div>`;
+                input.value = "";
+
+                fetch("/get", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ msg })
+                })
+                .then(res => res.json())
+                .then(data => {
+                    const reply = data.response;
+                    log.innerHTML += `<div class='bot'>Lil Dino: ${reply}</div>`;
+                    log.scrollTop = log.scrollHeight;
+                    speak(reply);
+                });
+            }
+        });
+
+        themeToggle.addEventListener("click", () => {
+            document.body.classList.toggle("dark");
+            const isDark = document.body.classList.contains("dark");
+            themeToggle.textContent = isDark ? "☀️ Light Mode" : "🌙 Dark Mode";
+        });
+
+        voiceToggle.addEventListener("click", () => {
+            voiceOn = !voiceOn;
+            voiceToggle.textContent = voiceOn ? "🔈 Voice: On" : "🔇 Voice: Off";
+        });
+
+        // Show initial greeting
+        window.onload = () => {
+            const msg = "Hi there! How can I help you today?";
+            log.innerHTML += `<div class='bot'>Lil Dino: ${msg}</div>`;
+            speak(msg);
+        };
+    </script>
+</body>
+</html>

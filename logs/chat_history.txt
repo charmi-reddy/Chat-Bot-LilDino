@@ -1,0 +1,154 @@
+[2025-07-11 20:12:44] ChatBot: Hello! Type 'bye' to exit.
+[2025-07-11 20:12:50] You: Hey
+[2025-07-11 20:12:50] ChatBot: I’m not sure I got that. Try rephrasing?
+[2025-07-11 20:13:04] You: how are you
+[2025-07-11 20:13:04] ChatBot: I'm just a bunch of Python code, but I'm feeling good!
+[2025-07-11 20:13:13] You: do you have friends?
+[2025-07-11 20:13:13] ChatBot: Only if you count APIs.
+[2025-07-11 20:13:23] You: default
+[2025-07-11 20:13:23] ChatBot: Interesting... but I don’t know how to reply to that.
+[2025-07-11 20:13:37] You: do you lie?
+[2025-07-11 20:13:37] ChatBot: Never. Except when I say I don’t lie.
+[2025-07-11 20:13:41] You: lol
+[2025-07-11 20:13:41] ChatBot: Interesting... but I don’t know how to reply to that.
+[2025-07-11 20:13:51] You: explain recursion
+[2025-07-11 20:13:51] ChatBot: It’s when a function calls itself... over and over and over...
+[2025-07-11 20:14:00] You: lol
+[2025-07-11 20:14:00] ChatBot: Interesting... but I don’t know how to reply to that.
+[2025-07-11 20:14:07] You: can you dance?
+[2025-07-11 20:14:07] ChatBot: Internally, yes.
+[2025-07-11 20:14:11] You: can you dance?
+[2025-07-11 20:14:11] ChatBot: Internally, yes.
+[2025-07-11 20:14:25] You: tell me a pickup line
+[2025-07-11 20:14:25] ChatBot: Are you made of copper and tellurium? Because you’re Cu-Te.
+[2025-07-11 20:14:36] You: what's 9+10
+[2025-07-11 20:14:36] ChatBot: I’m not sure I got that. Try rephrasing?
+[2025-07-11 20:14:43] You: what's 9 + 10
+[2025-07-11 20:14:43] ChatBot: I’m not sure I got that. Try rephrasing?
+[2025-07-11 20:15:05] You: can you predict the future
+[2025-07-11 20:15:05] ChatBot: You’ll probably drink water today.
+[2025-07-11 20:15:07] You: can you predict the future
+[2025-07-11 20:15:07] ChatBot: Let me check... Nope.
+[2025-07-11 20:15:31] You: bye
+[2025-07-11 20:15:31] ChatBot: Bye! Have a nice day!
+[2025-07-11 20:17:09] ChatBot: Hello! Type 'bye' to exit.
+[2025-07-11 20:17:14] You: bow
+[2025-07-11 20:17:14] ChatBot: Interesting... but I don’t know how to reply to that.
+[2025-07-11 20:18:25] You: yo
+[2025-07-11 20:18:25] ChatBot: Interesting... but I don’t know how to reply to that.
+[2025-07-11 20:18:28] You: hi
+[2025-07-11 20:18:28] ChatBot: Hi!
+[2025-07-11 20:18:31] You: bye
+[2025-07-11 20:18:31] ChatBot: Bye! Have a nice day!
+[2025-07-11 20:18:37] ChatBot: Hello! Type 'bye' to exit.
+[2025-07-11 20:18:46] You: how are you
+[2025-07-11 20:18:46] ChatBot: All systems go!
+[2025-07-11 20:18:49] You: how are you
+[2025-07-11 20:18:49] ChatBot: Doing great, thanks for asking!
+[2025-07-11 20:18:55] You: ask me
+[2025-07-11 20:18:55] ChatBot: I’m not sure I got that. Try rephrasing?
+[2025-07-11 20:19:06] You: tell me riddle
+[2025-07-11 20:19:07] ChatBot: I’m not sure I got that. Try rephrasing?
+[2025-07-11 20:19:13] You: tell me a riddle
+[2025-07-11 20:19:13] ChatBot: The more you take, the more you leave behind. What am I? Footsteps.
+[2025-07-11 20:19:20] You: another
+[2025-07-11 20:19:20] ChatBot: I’m not sure I got that. Try rephrasing?
+[2025-07-11 20:19:23] You: tell me a riddle
+[2025-07-11 20:19:23] ChatBot: The more you take, the more you leave behind. What am I? Footsteps.
+[2025-07-11 20:19:39] You: tell me a riddle
+[2025-07-11 20:19:39] ChatBot: The more you take, the more you leave behind. What am I? Footsteps.
+[2025-07-11 20:19:44] You: tell me a riddle
+[2025-07-11 20:19:44] ChatBot: The more you take, the more you leave behind. What am I? Footsteps.
+[2025-07-11 20:19:52] You: good night
+[2025-07-11 20:19:52] ChatBot: Sweet dreams!
+[2025-07-11 20:19:57] You: tataaa
+[2025-07-11 20:19:57] ChatBot: I’m not sure I got that. Try rephrasing?
+[2025-07-11 20:20:00] You: byeee
+[2025-07-11 20:20:00] ChatBot: Goodbye!
+[2025-07-11 20:21:44] You: bye
+[2025-07-11 20:21:44] ChatBot: Bye! Have a nice day!
+[2025-07-11 20:23:13] ChatBot: Hello! Type 'bye' to exit.
+[2025-07-11 20:23:36] You: can you predict the future
+[2025-07-11 20:23:36] ChatBot: Let me check... Nope.
+[2025-07-11 20:23:43] You: bye
+[2025-07-11 20:23:43] ChatBot: Bye! Have a nice day!
+[2025-07-11 20:23:45] ChatBot: Hello! Type 'bye' to exit.
+[2025-07-11 20:23:50] You: hi
+[2025-07-11 20:23:50] ChatBot: Hey, friend!
+[2025-07-11 20:25:09] You: ye
+[2025-07-11 20:25:09] ChatBot: Interesting... but I don’t know how to reply to that.
+[2025-07-11 20:25:12] You: bye
+[2025-07-11 20:25:12] ChatBot: Bye! Have a nice day!
+[2025-07-11 20:25:20] ChatBot: Hello! Type 'bye' to exit.
+[2025-07-11 20:25:24] You: hi
+[2025-07-11 20:25:24] ChatBot: Hi!
+[2025-07-11 20:25:39] You: default
+[2025-07-11 20:25:39] ChatBot: I’m not sure I got that. Try rephrasing?
+[2025-07-11 20:25:49] You: do you go to school?
+[2025-07-11 20:25:49] ChatBot: No, but I’ve read all the Stack Overflow posts ever written.
+[2025-07-11 20:25:58] You: can we be friends?
+[2025-07-11 20:27:26] ChatBot: Hello! Type 'bye' to exit.
+[2025-07-11 20:28:22] You: bye
+[2025-07-11 20:28:22] ChatBot: Bye! Have a nice day!
+[2025-07-11 20:29:58] ChatBot: Hello! Type 'bye' to exit.
+[2025-07-11 20:30:08] You: Name
+[2025-07-11 20:30:08] ChatBot: Iâ€™m not sure I got that. Try rephrasing?
+[2025-07-11 20:30:24] You: do you get tired?
+[2025-07-11 20:30:24] ChatBot: Not really, but infinite loops are exhausting.
+[2025-07-11 20:31:03] You: bye
+[2025-07-11 20:31:03] ChatBot: Bye! Have a nice day!
+[2025-07-11 20:31:08] ChatBot: Hello! Type 'bye' to exit.
+[2025-07-11 20:31:13] You: hi
+[2025-07-11 20:31:13] ChatBot: Hey, friend!
+[2025-07-11 20:31:19] You: friend
+[2025-07-11 20:31:19] ChatBot: Iâ€™m not sure I got that. Try rephrasing?
+[2025-07-11 20:32:34] You: bye
+[2025-07-11 20:32:34] ChatBot: Bye! Have a nice day!
+[2025-07-11 20:32:43] ChatBot: Hello! Type 'bye' to exit.
+[2025-07-11 20:32:50] You: I love me
+[2025-07-11 20:32:50] ChatBot: Iâ€™m not sure I got that. Try rephrasing?
+[2025-07-11 20:32:59] You: who are you
+[2025-07-11 20:32:59] ChatBot: Iâ€™m not sure I got that. Try rephrasing?
+[2025-07-11 20:33:05] You: default
+[2025-07-11 20:33:05] ChatBot: Iâ€™m not sure I got that. Try rephrasing?
+[2025-07-11 20:33:21] You: tell me a riddle
+[2025-07-11 20:33:21] ChatBot: The more you take, the more you leave behind. What am I? Footsteps.
+[2025-07-11 20:33:34] You: can we be friends?
+[2025-07-11 20:33:34] ChatBot: We already are ðŸ˜„
+[2025-07-11 20:35:43] You: can we be friends?
+[2025-07-11 20:35:43] ChatBot: We already are ðŸ˜„
+[2025-07-11 20:35:49] You: bye
+[2025-07-11 20:35:49] ChatBot: Bye! Have a nice day!
+[2025-07-11 20:35:54] ChatBot: Hello! Type 'bye' to exit.
+[2025-07-11 20:36:00] You: can we be friends?
+[2025-07-11 20:36:00] ChatBot: Absolutely!
+[2025-07-11 20:36:06] You: can we be friends?
+[2025-07-11 20:36:06] ChatBot: Absolutely!
+[2025-07-11 20:36:26] You: do you get tired
+[2025-07-11 20:36:26] ChatBot: Not really, but infinite loops are exhausting.
+[2025-07-11 20:36:41] You: do you get tired
+[2025-07-11 20:36:41] ChatBot: Not really, but infinite loops are exhausting.
+[2025-07-11 20:36:45] You: bye
+[2025-07-11 20:36:45] ChatBot: Bye! Have a nice day!
+[2025-07-11 20:36:50] ChatBot: Hello! Type 'bye' to exit.
+[2025-07-11 20:36:58] You: do you get tired
+[2025-07-11 20:36:58] ChatBot: Only emotionally ðŸ˜”
+[2025-07-11 20:37:10] You: Good night!
+[2025-07-11 20:37:10] ChatBot: Sleep tight!
+[2025-07-11 20:37:14] You: bye
+[2025-07-11 20:37:14] ChatBot: Bye! Have a nice day!
+[2025-07-11 20:40:08] ChatBot: Hi, Iâ€™m Lil Dino ðŸ¦–! Type 'bye' to exit whenever youâ€™re done chatting.
+[2025-07-11 20:41:17] You: bye
+[2025-07-11 20:41:17] ChatBot: Bye! Have a nice day!
+[2025-07-11 20:41:21] ChatBot: Hi, Iâ€™m Lil Dino ðŸ¦–! Type 'bye' to exit whenever youâ€™re done chatting.
+[2025-07-11 20:43:44] You: bye
+[2025-07-11 20:43:44] ChatBot: Bye! Have a nice day!
+[2025-07-12 20:07:30] ChatBot: Hi, Iâ€™m Lil Dino ðŸ¦–! Type 'bye' to exit whenever youâ€™re done chatting.
+[2025-07-12 20:07:38] You: hi
+[2025-07-12 20:07:38] ChatBot: Hi!
+[2025-07-12 20:07:42] You: how are you
+[2025-07-12 20:07:42] ChatBot: Iâ€™m chillin' in code-land
+[2025-07-12 20:07:50] You: who are you
+[2025-07-12 20:07:50] ChatBot: Umm... Lil Dino didnâ€™t get that. Try again?
+[2025-07-12 20:07:57] You: bye
+[2025-07-12 20:07:57] ChatBot: Bye! Have a nice day!
